@@ -8,3 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/penduduk',[PendudukController::class, 'dataPenduduk']);
+Route::get('/surat', [PendudukController::class, 'daftarSurat']);
